@@ -1,0 +1,9 @@
+//St-Calendar_app Strava Info
+
+client ID: 44242
+
+Client Secret: 469a81b5bfb679b8576db8607d2054d3c3b698eb
+
+Access Token: 1cbe222f5dd7ffe5686c23e413e15596d7e373b1 
+
+Refresh Token: 8a612e963a3d7f868e120896725624b34f20e7b5 
