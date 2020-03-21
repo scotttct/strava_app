@@ -1,6 +1,7 @@
+//setup environmental variable taken from https://www.youtube.com/watch?v=17UVejOw3zA
+require('dotenv').config();
 //this code was taken from Github Repository: https://github.com/fpolig01/Code_From_Tutorials/tree/master/Strava_Api
 const auth_link = "https://www.strava.com/oauth/token";
-require('dotenv').config();//setup environmental variable taken from https://www.youtube.com/watch?v=17UVejOw3zA
 
 function getActivites(res) {
 
@@ -20,9 +21,9 @@ function reAuthorize() {
 
         body: JSON.stringify({
 
-            client_id: 'STRAVA_USER',
-            client_secret: 'STRAVA_API_SECRET',
-            refresh_token: 'STRAVA_API_REFRESH_TOKEN',
+            client_id: process.env.client_id,
+            client_secret: process.env.client_secret,
+            refresh_token: process.env.access_token,
             grant_type: 'refresh_token'
         })
     })
