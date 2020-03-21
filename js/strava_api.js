@@ -21,9 +21,9 @@ function reAuthorize() {
 
         body: JSON.stringify({
 
-            client_id: process.env.client_id,
-            client_secret: process.env.client_secret,
-            refresh_token: process.env.access_token,
+            client_id:44242
+            client_secret: 469a81b5bfb679b8576db8607d2054d3c3b698eb,
+            refresh_token: 8a612e963a3d7f868e120896725624b34f20e7b5,
             grant_type: 'refresh_token'
         })
     })
