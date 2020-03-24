@@ -1,0 +1,6 @@
+Thing that need to be done:
+1. fix menu to reflect future use case 
+2. do a board for project   
+3. add a search page...
+4. create files from postman results then query files
+5. Create login to strava account page  /  view  
