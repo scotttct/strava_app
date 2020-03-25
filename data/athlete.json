@@ -1,0 +1,22 @@
+{
+    "athlete": {
+        "id": 290084,
+        "username": "stomassetti",
+        "resource_state": 2,
+        "firstname": "Scott",
+        "lastname": "Tomassetti",
+        "city": "Wethersfield",
+        "state": "CT",
+        "country": "United States",
+        "sex": "M",
+        "premium": true,
+        "summit": true,
+        "created_at": "2012-02-24T14:45:37Z",
+        "updated_at": "2020-03-02T14:47:25Z",
+        "badge_type_id": 1,
+        "profile_medium": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/290084/1006968/2/medium.jpg",
+        "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/290084/1006968/2/large.jpg",
+        "friend": null,
+        "follower": null
+    }
+}

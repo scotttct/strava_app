@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/flatly/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
+<title>ST-Activities</title>
+</head>
+<body>
+    <head>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+            <a class="navbar-brand" href="#">ST-Activities</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">List</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Calendar</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Log Out</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">User: </a>
+                </li>
+              </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+            </div>
+          </nav>
+        <div class="jumbotron">
+            <h1 class="display-4">ST-Activities App</h1>
+            <p class="lead">Calls to the Strava App</p>
+            <hr class="my-4">
+            <p>An Application to make calls to the Strava API to pull activities and display them in a List and overlay the course data 
+                in a list.
+            </p>
+    
+        </div>
+       
+    </head>
+    <main>
+      <!-- <section>
+        <div class="container shadow-md p-3 mb-3 bg-white">
+            <div class="row">
+                <div class="col ">
+                  Lorem ipsum dolor sit amet, cibo sensibus interesset no sit. Et dolor possim volutpat qui. No malis 
+                  tollit iriure eam, et vel tale zril blandit, rebum vidisse nostrum qui eu. 
+                  No nostrud dolorem legendos mea, ea eum mucius oporteat platonem.Eam an case scribentur, 
+                  ei clita causae cum, alia debet eu vel.
+                </div>
+              <div class="col ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ducimus magni fuga temporibus, 
+                  autem, doloribus a nulla expedita fugit dolores quod natus, modi iure est molestiae vero facere delectus. Quas?
+                </div>
+              <div class="col ">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio tenetur dolorem aperiam quam? Vitae 
+                  recusandae praesentium maiores, 
+                  ipsum quibusdam cumque illo id nesciunt, voluptatem rerum explicabo officia eum, delectus dolorum?
+                </div>
+            </div>
+          </div>
+        
+    </section> -->
+
+        <section>
+            <div class="container shadow-md p-3 mb-3 bg-white">
+                <div class="row">
+                    <div class="col-md-4 js-st_athlete" id="athlete">
+                    </div>
+                    <div class="col-md-4 js-stGraph">
+                        Here is going to be a graph of recent strava hr and power data in a line graph  or bar graph.
+                        code for this can be found on <a href="https://developers.strava.com/docs/reference/">https://developers.strava.com/docs/reference/</a>
+                    </div>
+                    <div class="col-md-4 js-stMap">
+                        This will be for some kind of searchable map of past rides
+                    </div>
+                </div>
+              </div>
+            
+        </section>
+
+    </main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/st_fetch_data.js"></script>
+</body>
+<footer class="container-fluid pt-3 shadow-lg bg-dark">
+    <div class="row">
+        <div class="col-md-4 ">
+           <p class="text-white">&copy;	<a class="text-white" href="https://tomassetti.net">Tomassetti.net</a></p>
+        </div>
+        <div class="col-md-4">
+            <p class="text-white"><a class="text-white" href="index.html">Home</a></p>
+         </div>
+         <div class="col-md-4">
+            <p class="text-white">This app retrieves activity data from the Strava API</p>
+         </div>
+    </div>
+</footer>
+</html>

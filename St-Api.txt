@@ -2,13 +2,13 @@
 
 client ID: 44242
 
-Client Secret: 469a81b5bfb679b8576db8607d2054d3c3b698eb
+Client Secret: 469a81b5bfb679b8576db8607d2054d3c3b698eb 
 
 Access Token: 6fa01b93f8a89e16448225d7cacecb0600fd6226 
 
 Refresh Token: 5ac5800179163d8735503431c9139ff962fa08f7 
 
-code for read-all: ee1c6a0fc7b37a891f43577ec7d59652c37e4e35
+code for read-all: cfe2263894ef025d72a2a0d41a69799ccd41cf0f
 
 *******************************************************************
 youtube video at:  https://www.youtube.com/watch?v=sgscChKfGyg
@@ -25,7 +25,7 @@ https://www.strava.com/oauth/authorize?client_id=44242&redirect_uri=http://local
 2) Exchange authorization code for access token & refresh token
 
 https://www.strava.com/oauth/token?client_id=your_client_id&client_secret=your_client_secret&code=your_code_from_previous_step&grant_type=authorization_code
-https://www.strava.com/oauth/token?client_id=44244&client_secret=469a81b5bfb679b8576db8607d2054d3c3b698eb&code=4820367923464547f1fdb21a2967a28e74c0f6c8&grant_type=authorization_code
+https://www.strava.com/oauth/token?client_id=44244&client_secret=469a81b5bfb679b8576db8607d2054d3c3b698eb&code=cfe2263894ef025d72a2a0d41a69799ccd41cf0f&grant_type=authorization_code
 3) View your activities using the access token just received
 
 https://www.strava.com/api/v3/athlete/activities?access_token=3c92d17ac1a6398ffd54b1d00ccef59343be28e2
