@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.$.getJSON(".data/st-activities.json", function (data) {
+    $.$.getJSON("./data/st-activities.json", function (data) {
         var activity_data = '';
         $.each(data, function(key, value){
             activity_data += '<tr>';
