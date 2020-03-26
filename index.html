@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/flatly/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- <link rel="stylesheet" href="style.css"> -->
 <title>ST-Activities</title>
@@ -93,13 +94,37 @@
           <div class="container shadow-md p-3 mb-3 bg-white">
             <div class="row">
                 <div class="col-md-4 js-st_athlete" id="athlete">
+                 
+                  <div class="card profile-card">
+                    <img class="img-index-profile"src="https://dgalywyr863hv.cloudfront.net/pictures/athletes/290084/1006968/2/large.jpg" class="card-img-top" alt="profile image for user">
+                    <div class="card-body">
+                      <h5 class="card-title">User: STomassetti</h5>
+                      <p class="card-text">Member of Strava since: 2012-02-24.</p>
+                      <p class="card-text">Country: United States.</p>
+                      <a href="https://strava.com" class="btn btn-primary">Strava Activites App</a>
+                    </div>
+                  </div>
                 </div>
                 <div class="col-md-4 js-stGraph">
-                    Here is going to be a graph of recent strava hr and power data in a line graph  or bar graph.
-                    code for this can be found on <a href="https://developers.strava.com/docs/reference/">https://developers.strava.com/docs/reference/</a>
+                  <div class="card" style="width: 21rem;">
+                  <img src="img/Strava_Stats.png" class="card-img-top" alt="Strava Activities Data Tables Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Activities Activies List</h5>
+                    <p class="card-text">Table with all your strava activities sorted by last performed</p>
+                    <a href="activities.html" class="btn btn-primary">Go to Activities List</a>
+                  </div>
                 </div>
-                <div class="col-md-4 js-stMap">
-                    This will be for some kind of searchable map of past rides
+                </div>
+                <div class="col-md-4 js-stGraph">
+                  <div class="card" style="width: 21rem;">
+                  <img src="img/area_graph.png" class="card-img-top" alt="graph Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Average Power Output Comparison Graph</h5>
+                    <p class="card-text">Compares the last 12 months of Average Ride Wattage and Weighted Power Output from various cycling activities posted to Strava.com.</p>
+                    <a href="powerGraph.html" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+
                 </div>
             </div>
           </div>
